@@ -1,0 +1,15 @@
+Required Dependencies (From Colab) 
+*Please Ensure these are installed in your application to use the data set*
+
+
+import os, shutil
+
+from tensorflow.keras.utils import image_dataset_from_directory
+
+from tensorflow import keras
+from tensorflow.keras import layers
+import numpy as np
+import matplotlib.pyplot as plt
+
+from google.colab import drive
+from google.colab import files
